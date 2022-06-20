@@ -1,0 +1,342 @@
+body{
+  background-image:url("https://i.stack.imgur.com/FzoNL.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 100px;
+
+}
+// index.html
+.details{
+width: 35%;
+}
+
+.feedback{
+
+  margin: auto;
+  p{
+      font-size: medium;
+      font-weight: bold;
+      background-color: none;
+  }
+  label{
+      font-size: small;
+      font-weight: bold;
+  }
+}
+
+.link_menu{
+
+  background-color: #008CBA;
+  display: flex;
+  border-radius: 25px;
+}
+
+.heading{
+  h1{
+      display: flex;
+      justify-content: center;
+      font-size: 50px;
+      font-family: Arial, Helvetica, sans-serif; 
+      font-style: oblique;
+      color:black;
+      background-color: #008CBA;
+      border-radius: 25px;
+      }
+      img{
+          width: 700px;
+          height: auto;
+          margin-left: auto;
+          margin-right: auto;
+          display: flex;
+          border-radius: 25px;
+      
+      }  
+  
+  }
+
+  h2{
+    padding: 10px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+
+.main_img1 {
+  height:200px;
+  width: 50%;
+  display: flex;
+  margin:0 auto;
+ }
+ .main_img2 {
+  height:200px;
+  width: 50%;
+  display: flex;
+  margin:0 auto;
+ }
+ .main_img3 {
+  height:200px;
+  width: 50%;
+  display: flex;
+  margin:0 auto;
+ }
+
+ table, th, td {
+  border: 1px solid black;
+  background-color: #008CBA;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+h3{
+  padding: 10px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.colorblock_a{
+padding: 30px;
+background-color: rebeccapurple;
+display: block;
+width: 200px;
+height:200px;
+margin-left: 500px;
+font-size: x-large;
+}
+
+.colorblock_b{
+padding: 30px;
+background-color:gold ;
+display: block;
+width: 200px;
+height:200px;
+margin-left: 500px;
+font-size: x-large;
+}
+
+.list_order{
+  margin-left: 40%;
+  
+    }
+  
+    li{
+      color:black;
+  }
+  
+// end of index.html
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  // resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #181a1a;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #0d0e0d;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: burlywood;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.container1 {
+  border-radius: 5px;
+  background-color:burlywood;
+  padding: 20px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+
+
+a:hover{
+    color: gold;
+}
+
+
+    
+  
+
+    p{
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: bold;
+
+    }
+
+
+img {
+  padding: 10px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 50%;
+   }
+   nav {background:#2ba0db; }
+   
+    
+   
+   nav ul {
+   
+     margin:auto;
+   
+     padding: 5px;;
+   }
+   
+    
+   
+   nav ul li {
+     display: inline-block;
+   
+     position:relative;
+   }
+   
+    
+   
+   nav ul li a {
+      color:#fff;
+   
+      display:ruby-base;
+   
+      font-size:14px;
+   
+      padding:15px 14px;
+   
+      transition:0.3s linear;
+   }
+   
+    
+   
+   nav ul li:hover {
+    background:blue;
+  }
+   
+    
+   
+   nav ul li ul {
+     border-bottom:5px solid #2ba0db;
+  
+     display:none;
+   
+     position:relative;
+   
+     width:500px;
+   }
+   
+    
+   
+   nav ul li ul li {
+   
+     border-top:1px solid yellow;
+   
+     display:block;
+   
+   }
+   
+    
+   
+  //  nav ul li ul li:first-child {border-top:none; }
+   
+    
+   
+   nav ul li ul li a {
+   
+     background: red;
+     display:block;
+     padding:10px 14px;
+   }
+   
+    
+   
+   nav ul li ul li a:hover {background:#126d9b; }
+   
+
+
+button{
+    padding: 5px;
+    font-size: 15px;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+}
+
+button:hover {
+    color: gold;
+  }
+  
+footer{
+  text-align: center;
+}
+
+
+
+
+.paleo{
+    h1{
+        display: flex;
+        justify-content: center;
+        font-size: 50px;
+        font-family: Arial, Helvetica, sans-serif; 
+        font-style: oblique;
+        color:black;
+        background-color: #008CBA;
+     
+    }
+}
+
+  
+  .styler{
+    outline:none;
+    box-shadow:none;
+    border: none;
+    width: 40px;
+    height: 30px;
+    font-size: .5;
+    border-radius: 100px;
+  }
+  
+  .box{
+    background: #074202;
+    color: white;
+  }
+ #btnTog{
+  padding: 10px;
+  text-align: center;
+margin-left: 500px;
+
+ }
+  
+  #animate{
+    width: 500px;
+    height: 250px;
+    background-color:black;
+    color:white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 10px;
+  }
+
+  h1{
+    text-align: center;
+    color: beige;
+  }
